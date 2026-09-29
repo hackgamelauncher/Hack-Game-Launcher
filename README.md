@@ -2,6 +2,8 @@
 
 HGL is a desktop launcher for classic roguelikes and Dwarf Fortress. Pick a game, click **Build image**, then **Start**. HGL runs the game in a Docker container and gives you a link to play it in your web browser, on the same computer or on another device on your network.
 
+![Hack Game Launcher with the Dwarf Fortress options listed and Succession selected](docs/screenshots/launcher-join-links.png)
+
 - **One click to play:** no installing each game or its tools by hand. HGL downloads and sets up everything a game needs.
 - **Play together:** many options are multiplayer. Some share one screen, some give each player their own view, and some let players take turns on one save.
 - **Mods:** tick the mods you want per game, save your favourite combinations, and add your own Dwarf Fortress mod files.
@@ -30,6 +32,23 @@ HGL needs [Docker](https://www.docker.com/products/docker-desktop/) installed an
 | **Dungeon Crawl Stone Soup** | The browser WebTiles version with player accounts, and a graphics + sound version. |
 | **Angband** | A browser terminal version, and a graphics + sound version with an optional graphical tileset. |
 | **Pathos** | Graphics + sound. HGL downloads the game from its official site if you don't have it. |
+
+## Screenshots
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/launcher-mods.png" alt="Three NetHack mods ticked and saved as a mod set named Comfy NetHack"></td>
+    <td width="50%"><img src="docs/screenshots/launcher-join-links.png" alt="A running NetHack game with its Play link, Copy button and QR code"></td>
+  </tr>
+  <tr>
+    <td>Tick the mods you want and save the combination under your own name.</td>
+    <td>A running game's join link, with a QR code to open it on a phone.</td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/launcher-settings.png" width="300" alt="Settings: start at login, check for updates, LAN access, Data Cleanup, Docker Setup and feedback buttons"></td>
+    <td>Settings: start at login, update checks, LAN access for other devices, cleaning up old game images, Docker setup help, and bug reports or feature requests.</td>
+  </tr>
+</table>
 
 ## Phones and tablets
 
